@@ -1,0 +1,23 @@
+<div ng-controller='dayCtrl'>
+    <table >
+        <thead>
+          <tr>
+              <th >Name</th>
+              <th >Date</th>
+              <th>Observed</th>
+              <th>Public</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>{{obj.name}}</td>
+            <td>{{obj.date}}</td>
+            <td>{{obj.observed}}</td>
+            <td>{{obj.public}}</td>
+          </tr>
+          
+        </tbody>
+      </table>
+      <a class="waves-effect waves-light btn" ng-click='back()'>back</a>      
+</div>

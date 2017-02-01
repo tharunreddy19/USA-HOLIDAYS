@@ -1,0 +1,22 @@
+<div ng-controller='homeCtrl'>
+   
+    
+    <table class="centered">
+        <thead>
+          <tr>
+              <th data-field="id">No.</th>
+              <th data-field="id">Holidays</th>
+              
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr ng-repeat="x in holiDays">
+              <td>{{$index+1}}</td>
+              <td> <a href="" ng-click='call(x)'>{{x.name}}</a></td>
+           
+          </tr>
+        </tbody>
+        </table>
+   
+</div>
